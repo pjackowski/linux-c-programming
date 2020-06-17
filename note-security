@@ -1,0 +1,10 @@
+Dangerous functions in C/C++ than might
+cause memory corruption vulnerabilities
+
+FUNCTION        MITIGATION
+gets            use function: fgets, getline
+scanf           use function: fgets, getline
+sprintf         use function: snprintf
+getpw           use function: getpwuid
+strcpy          use function: strncpy
+strcat          use function: strncat
