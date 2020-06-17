@@ -1,4 +1,4 @@
-Dangerous functions in C/C++ than might
+Dangerous functions in C/C++ that might
 cause memory corruption vulnerabilities
 
 FUNCTION        MITIGATION
